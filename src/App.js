@@ -4,6 +4,7 @@ import './App.css';
  import {HomeComponent} from './Components/HomeComponent';
  import DemoHook from './Components/DemoHook';
  import DemoUseState from './Components/DemoUseState';
+ import { DemoStateWithObject } from './Components/DemoStateWithObject';
 
 function App() {
  
@@ -18,7 +19,9 @@ function App() {
    return(<>
    {/* <HomeComponent value={Profile}></HomeComponent>
    <DemoHook></DemoHook> */}
-<DemoUseState></DemoUseState>
+{/* <DemoUseState></DemoUseState> */}
+
+<DemoStateWithObject></DemoStateWithObject>
 
    </>);
 }
