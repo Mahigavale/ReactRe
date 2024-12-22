@@ -1,0 +1,11 @@
+
+
+let arr=[10,20,30,40,50];
+
+
+console.log(arr.map((n)=>
+{
+    return n+1;
+    
+}));
+
